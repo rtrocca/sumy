@@ -89,7 +89,7 @@ class Tokenizer(object):
     # improve tokenizer by adding specific abbreviations it has issues with
     # note the final point in these items must not be included
     LANGUAGE_EXTRA_ABREVS = {
-        "english": ["e.g", "al", "i.e"],
+        "english": ["e.g", "al", "i.e", "a.i"],
         "german": ["al", "z.B", "Inc", "engl", "z. B", "vgl", "lat", "bzw", "S"],
     }
 
